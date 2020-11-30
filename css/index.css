@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'AlegreyaSansSC';
+    src: url(fonts/AlegreyaSansSC-Regular.woff)
+        format('woff');
+    font-weight: normal;
+    
+    font-family: 'AlegreyaSansSC';
+    src: url(fonts/AlegreyaSansSC-Bold.woff)
+        format('woff');
+    font-weight: bold;
+
+    font-family: 'AlegreyaSansSC';
+    src: url(fonts/AlegreyaSansSC-Italic.woff)
+        format('woff');
+    font-style: italic;
+
+    font-family: 'AlegreyaSansSC';
+    src: url(fonts/AlegreyaSansSC-Light.woff)
+        format('woff');
+    font-weight: 500;
+
+    font-family: 'AlegreyaSansSC';
+    src: url(fonts/AlegreyaSansSC-BoldItalic.woff)
+        format('woff');
+    font-weight: 900;
+}
+
+/* --------------------------------------------------- */
+
+*{
+    box-sizing: border-box;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;    
+}
+
+a{
+    color: black;
+}
+
+/* -------------------------------------------------- */
+#first_page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 5px
+}
+
+#logo a img{
+    max-height: 9vh;
+    max-width: 14vw;
+    min-height: 5vh;
+    min-width: 8vw;
+    margin-left: 5vw;
+}
+
+.burger{
+    margin-right: 5vw;
+    padding: 5px;
+}
+
+.burger_element{
+    width: 9vw;
+    height: .7vh;
+    min-height: 5px;
+    min-width: 35px;
+    background-color: black;
+    margin: .7vh 0;
+}
+
+#introduction{
+    padding: 0 7vh 5vh 7.5vw;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: .1em;
+}
+
+#introduction_bg{
+    position: absolute;
+    color: #828282;
+    opacity: 10%;
+    font-style: italic;
+    font-size: 50vh;
+    top: 9%;
+    left: 0;
+}
+
+#introduction h1{
+    font-size: 5em;
+    letter-spacing: .1em;
+    font-weight: normal;
+    margin: 4.5vh 0;
+    min-width: 95vw;
+}
+
+#introduction h3{
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0;
+    
+}
+
+#introduction h2{
+    font-size: 2.7em;
+    letter-spacing: .15em;
+    margin: 0;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-style: italic;
+    font-size: .8em;
+    color: grey;
+}
+
+#introduction p b{
+    font-weight: 900;
+    font-size: 1em;
+    text-decoration: underline;    
+}
+
+/* -------------------------------------------------- */
+.profolio{
+    background-color: black;
+}
+
+#continue_reading{
+    background-color: black;
+}
+
+#continue_reading img{
+    height: 18vh;
+    float: right;
+    margin-right: 5vw;
+}
+
+#intro_detail{
+    color: white;
+    padding: 0 0 0 5vw;
+}
+
+#intro_detail h1{
+    font-size: 5.75em;
+    margin: 0;
+    font-weight: normal;
+    letter-spacing: .1em;
+}
+
+#intro_detail p{
+    font-size: 1.3em;
+    line-height: 2em;
+    margin: 0;
+    width: 80%;
+}
+
+#intro_detail h3{
+    font-size: 2em;
+    margin: .5em 0;
+}
+
+.focus{
+    color: white;
+    margin: 5vh 3vw 5vh 5vw;
+}
+
+.focus a{
+    color: white;
+    text-decoration: none;
+}
+
+.focus p{
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+
+.myfocus{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    max-width: 400px;
+    max-height: 100px;
+}
+
+.myfocus h1{
+    margin: 0;
+    max-width: 80vw;
+}
+
+.myfocus img{
+    height: 32px;
+    width: 32px;
+}
+
+
+/* -------------------------------------------- */
+.menu{
+    min-height: 100vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.menu h1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    padding: 5vh 10vw;
+    margin: 0;
+}
+
+#menu_list{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+#menu_list a p{
+    padding: 2.5vh 10vw;
+    margin: 0;
+}
+
+#menu_list a{
+    text-decoration: none;
+}
+
+.current{
+    background-color: black;
+    color: white;
+}
+
+#back_to_top a p{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 3vh 0;
+    margin: 10vh 0 0 0;
+}
