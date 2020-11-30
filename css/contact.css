@@ -82,9 +82,46 @@ a{
 }
 
 /* ------------------------------------------ */
-.portfolio{
+.contact{
     font-family: 'Alegreya Sans SC', sans-serif;
-    height: 100vh;
+    height: 85vh;
+    max-height: ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.email h1{
+    font-size: 3em;
+}
+
+.email p{
+    font-size: 1.5em;
+    margin: .5em;
+    font-family: 'Alegreya Sans', sans-serif;;
+}
+
+.blackout{
+    background-color: black;
+    color: white;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.social_media{
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+}
+
+.social_media a{
+}
+
+.social_media a img{
+    height: 48px;
 }
 
 /* -------------------Menu------------------- */

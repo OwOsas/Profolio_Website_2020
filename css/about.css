@@ -169,14 +169,15 @@ a{
 }
 
 #menu_btt img{
-    padding: 2vh 7vw;
-    margin: 2vh 3vw;
+    margin: 1vh 10vw;
+    height: 6vh;
+    width: auto;
 }
 
 #menu_btt h1{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: bold;
-    padding: 5vh 10vw;
+    padding: 3vh 10vw;
     margin: 0;
 }
 
@@ -184,7 +185,7 @@ a{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: normal;
     font-size: 3em;
-    margin: 0;
+    margin: 5vh 0;
     padding: 0;
 }
 
