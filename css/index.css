@@ -51,39 +51,34 @@ a{
 }
 
 .header{
-    height: 12vh;
+    height: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 5px
+    /* margin: 2vh 0; */
 }
 
 #logo a img{
-    max-height: 9vh;
-    max-width: 14vw;
-    min-height: 5vh;
-    min-width: 8vw;
-    margin-left: 5vw;
+    height: 72px;
+    margin: 5vw;
+    padding: 10px 0;
 }
 
 .burger{
     margin-right: 5vw;
     padding: 5px;
-    /* position: fixed; */
-    right: 0;
 }
 
 .burger_element{
-    width: 9vw;
+    width: 11vw;
     height: .7vh;
-    min-height: 7px;
-    min-width: 40px;
+    min-height: 5px;
+    min-width: 32px;
+    max-width: 64px;
+    max-height: 10px;
     background-color: black;
-    margin: .7vh 0;
-    border: 1px solid white;
+    margin: .9vh 0;
 }
-
 
 /* ------------------------------------------- */
 #introduction{

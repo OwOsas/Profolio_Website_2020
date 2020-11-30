@@ -57,20 +57,17 @@ a{
 }
 
 .header{
-    height: 12vh;
+    height: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 5px
+    /* margin: 2vh 0; */
 }
 
 #logo a img{
-    max-height: 9vh;
-    max-width: 14vw;
-    min-height: 5vh;
-    min-width: 8vw;
-    margin-left: 5vw;
+    height: 72px;
+    margin: 5vw;
+    padding: 10px 0;
 }
 
 .burger{
@@ -79,12 +76,14 @@ a{
 }
 
 .burger_element{
-    width: 9vw;
+    width: 11vw;
     height: .7vh;
     min-height: 5px;
-    min-width: 35px;
+    min-width: 32px;
+    max-width: 64px;
+    max-height: 10px;
     background-color: black;
-    margin: .7vh 0;
+    margin: .9vh 0;
 }
 
 /* ------------------------------------------ */

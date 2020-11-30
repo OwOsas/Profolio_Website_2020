@@ -48,23 +48,24 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    align-items: center;
+    text-align: center;
 }
 
 .header{
-    height: 12vh;
+    height: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 5px
+    width: 100vw;
+    /* margin: 2vh 0; */
 }
 
 #logo a img{
-    max-height: 9vh;
-    max-width: 14vw;
-    min-height: 5vh;
-    min-width: 8vw;
-    margin-left: 5vw;
+    height: 72px;
+    margin: 5vw;
+    padding: 10px 0;
 }
 
 .burger{
@@ -73,20 +74,15 @@ a{
 }
 
 .burger_element{
-    width: 9vw;
-    height: .7vh;
-    min-height: 5px;
-    min-width: 35px;
+    width: 40px;
+    height: 5px;
     background-color: black;
-    margin: .7vh 0;
+    margin: 5px 0;
 }
 
 /* ------------------------------------------ */
 .contact{
-    font-family: 'Alegreya Sans SC', sans-serif;
-    height: 85vh;
-    max-height: ;
-    text-align: center;
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -106,6 +102,8 @@ a{
 .blackout{
     background-color: black;
     color: white;
+    margin: 0;
+    padding: .5em;
 }
 .underline{
     text-decoration: underline;
@@ -115,9 +113,7 @@ a{
     display: flex;
     justify-content: space-around;
     width: 75vw;
-}
-
-.social_media a{
+    margin: 0 0 5vh 0;
 }
 
 .social_media a img{
