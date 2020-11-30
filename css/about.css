@@ -23,6 +23,11 @@
     src: url(fonts/AlegreyaSansSC-BoldItalic.woff)
         format('woff');
     font-weight: 900;
+
+    font-family: 'AlegreyaSans';
+    src: url(fonts/AlegreyaSans-Regular.woff)
+        format('woff');
+    font-weight: normal;
 }
 
 /* --------------------------------------------------- */
@@ -35,7 +40,8 @@
 
 body{
     margin: 0;
-    padding: 0;    
+    padding: 0;  
+    font-family: 'Alegreya Sans', sans-serif;  
 }
 
 a{
@@ -81,131 +87,70 @@ a{
     margin: .7vh 0;
 }
 
-/* ------------------------------------------- */
-#introduction{
-    padding: 0 7vh 5vh 7.5vw;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    letter-spacing: .1em;
-}
-
-#introduction_bg{
+/* ------------------------------------------ */
+#background_block{
+    height: 25vh;
+    width: 100vw;
+    background-color: rgb(240, 240, 240);
     position: absolute;
-    color: #828282;
-    opacity: 10%;
-    font-style: italic;
-    font-size: 50vh;
-    top: 9%;
-    left: 0;
+    z-index: -1;
+    top: 0;
 }
 
-#introduction h1{
+/* -------------------------------------------- */
+#about_me{
+    padding: 7vw;
+}
+
+#about_me h1{
     font-size: 5em;
-    letter-spacing: .1em;
+    margin: 2vh 0;
     font-weight: normal;
-    margin: 4.5vh 0;
-    min-width: 95vw;
 }
 
-#introduction h3{
-    font-size: 2em;
+#about_me p{
     font-weight: normal;
-    margin: 0;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+}
+
+/* ------------------------------------------- */
+#work_experience{
+    padding: 5vw;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#work_experience_title{
+    border-bottom: 2px solid black;
+}
+
+#work_experience_title h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0em;
+}
+
+#work_experience ul{
+    padding: 0;
+}
+
+#work_experience ul li{
+    font-size: 1.2em;
+    margin: 5vh 5vw;
+}
+
+/* .year{
     
+} */
+
+.name{
+    font-weight: bold;
+    margin: 0 0 .3em 0;
 }
 
-#introduction h2{
-    font-size: 2.7em;
-    letter-spacing: .15em;
-    margin: 0;
-    font-weight: normal;
+.content{
+    font-family: 'Alegreya Sans', sans-serif;
 }
-
-#introduction p{
-    font-style: italic;
-    font-size: .8em;
-    color: grey;
-}
-
-#introduction p b{
-    font-weight: 900;
-    font-size: 1em;
-    text-decoration: underline;    
-}
-
-/* -------------------------------------------------- */
-.profolio{
-    background-color: black;
-}
-
-#continue_reading{
-    background-color: black;
-}
-
-#continue_reading img{
-    height: 18vh;
-    float: right;
-    margin-right: 5vw;
-}
-
-#intro_detail{
-    color: white;
-    padding: 0 0 0 5vw;
-}
-
-#intro_detail h1{
-    font-size: 5.75em;
-    margin: 0;
-    font-weight: normal;
-    letter-spacing: .1em;
-}
-
-#intro_detail p{
-    font-size: 1.3em;
-    line-height: 2em;
-    margin: 0;
-    width: 80%;
-}
-
-#intro_detail h3{
-    font-size: 2em;
-    margin: .5em 0;
-}
-
-.focus{
-    color: white;
-    margin: 5vh 3vw 5vh 5vw;
-}
-
-.focus a{
-    color: white;
-    text-decoration: none;
-}
-
-.focus p{
-    font-size: 1.3em;
-    margin-bottom: 0;
-}
-
-.myfocus{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
-    max-width: 400px;
-    max-height: 100px;
-}
-
-.myfocus h1{
-    margin: 0;
-    max-width: 80vw;
-}
-
-.myfocus img{
-    height: 32px;
-    width: 32px;
-}
-
 
 /* -------------------Menu------------------- */
 .menu{
