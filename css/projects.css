@@ -56,7 +56,9 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 2vh 0; */
+    position: absolute;
+    top: 0;
+    width: 100vw;
 }
 
 #logo a img{
@@ -71,6 +73,7 @@ a{
 }
 
 .burger_element{
+    border: 1px solid white;
     width: 11vw;
     height: .7vh;
     min-height: 5px;
@@ -82,55 +85,81 @@ a{
 }
 
 /* ------------------------------------------ */
-.category{
-    margin: 3vh 10vw 1vh 10vw;
-    /* border-bottom: 4px solid black; */
+.portfolio{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.portfolio_title_img{
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+.portfolio_title_img img{
+    position: absolute;
+    height: 75vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.portfolio_title_img h1{  
+    color: white;
+    font-size: 3em;
+    padding: 0 5vw;
+    font-weight: normal;
+}
+
+.project_info{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /* max-width: 320px; */
 }
 
-.category h1{
-    margin: .5vh 0vw;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 1.5em;
+.project_info p{
+    letter-spacing: .1em;
+    margin: 5vw;
 }
 
-.category img{
-    height: 3em;
-    padding: 7px;
-}
-
-
-
-.card{
-    margin: 0 10vw 5vh 10vw;
-    /* box-shadow: 0 10px 20px lightgrey; */
-
-}
-
-.card img{
-    width: 100%;
-    height: auto;
-    background-size: contain;
-}
-
-.description{
-    margin: 1vh 0;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    line-height: 2.05em;
-}
-.description h1{
-    margin: 0;
-    font-weight: normal;
+.program_used{
+    max-width: 80vw;
+    height: 2.5em;
+    margin: 5vw;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 
-.description p{
-    margin: 0;
+.program_used img{
+    height: 100%;
+    margin: 0 2vw;
+}
+
+/* -------------------------------------------- */
+.portfolio_content img{
+    margin-top: 8vh;
+}
+.portfolio_content h2{
+    margin: 3vh 5vw 1vh 5vw;
+}
+
+.portfolio_content p{
+    margin: 0 5vw;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.back_to_portfolio{
+    margin: 5vh 0;
+    background-color: black;
+}
+
+.back_to_portfolio a h1{
+    color: white;
+    text-align: center;
     font-size: 1.5em;
 }
+
 
 /* -------------------Menu------------------- */
 .menu{
