@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'AlegreyaSansSC';
-    src: url(fonts/AlegreyaSansSC-Regular.woff)
+    src: url(../fonts/AlegreyaSansSC-Regular.woff)
         format('woff');
     font-weight: normal;
     
     font-family: 'AlegreyaSansSC';
-    src: url(fonts/AlegreyaSansSC-Bold.woff)
+    src: url(../fonts/AlegreyaSansSC-Bold.woff)
         format('woff');
     font-weight: bold;
 
     font-family: 'AlegreyaSansSC';
-    src: url(fonts/AlegreyaSansSC-Italic.woff)
+    src: url(../fonts/AlegreyaSansSC-Italic.woff)
         format('woff');
     font-style: italic;
 
     font-family: 'AlegreyaSansSC';
-    src: url(fonts/AlegreyaSansSC-Light.woff)
+    src: url(../fonts/AlegreyaSansSC-Light.woff)
         format('woff');
     font-weight: 500;
 
     font-family: 'AlegreyaSansSC';
-    src: url(fonts/AlegreyaSansSC-BoldItalic.woff)
+    src: url(../fonts/AlegreyaSansSC-BoldItalic.woff)
         format('woff');
     font-weight: 900;
 }
@@ -35,7 +35,9 @@
 
 body{
     margin: 0;
-    padding: 0;    
+    padding: 0;   
+    font-family: 'Alegreya Sans'; 
+    font-weight: normal;
 }
 
 a{
@@ -52,28 +54,21 @@ a{
 }
 
 .header{
-    height: 72px;
+    min-height: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1em;
     position: absolute;
     top: 0;
     width: 100vw;
 }
 
 #logo a img{
-    height: 72px;
-    margin: 5vw;
-    padding: 10px 0;
-}
-
-.burger{
-    margin-right: 5vw;
-    padding: 5px;
+    height: 4em;
 }
 
 .burger_element{
-    border: 1px solid white;
     width: 11vw;
     height: .7vh;
     min-height: 5px;
@@ -82,6 +77,7 @@ a{
     max-height: 10px;
     background-color: black;
     margin: .9vh 0;
+    border: 1px solid white;
 }
 
 /* ------------------------------------------ */
@@ -99,6 +95,7 @@ a{
 .portfolio_title_img img{
     position: absolute;
     height: 75vh;
+    min-width: 100vw;
     object-fit: cover;
     z-index: -1;
 }
@@ -137,6 +134,7 @@ a{
 /* -------------------------------------------- */
 .portfolio_content img{
     margin-top: 8vh;
+    min-width: 100vw;
 }
 .portfolio_content h2{
     margin: 3vh 5vw 1vh 5vw;
@@ -152,11 +150,12 @@ a{
 .back_to_portfolio{
     margin: 5vh 0;
     background-color: black;
+    color: white;
+    text-align: center;
 }
 
 .back_to_portfolio a h1{
     color: white;
-    text-align: center;
     font-size: 1.5em;
 }
 
